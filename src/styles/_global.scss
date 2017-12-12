@@ -1,0 +1,137 @@
+input, input:focus {
+  outline: none;
+}
+.m-both-xs {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.m-both-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.m-both-md {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.m-both-lg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.m-bottom-xs {
+  margin-bottom: 5px;
+}
+.m-bottom-sm {
+  margin-bottom: 10px;
+}
+.m-bottom-md {
+  margin-bottom: 15px;
+}
+.m-bottom-lg {
+  margin-bottom: 20px;
+}
+
+.m-top-xs {
+  margin-top: 5px;
+}
+.m-top-sm {
+  margin-top: 10px;
+}
+.m-top-md {
+  margin-top: 15px;
+}
+.m-top-lg {
+  margin-top: 20px;
+}
+
+.m-right-xs {
+  margin-right: 5px;
+}
+.m-right-sm {
+  margin-right: 10px;
+}
+.m-right-md {
+  margin-right: 15px;
+}
+.m-right-lg {
+  margin-right: 20px;
+}
+
+.m-left-xs {
+  margin-left: 5px;
+}
+.m-left-sm {
+  margin-left: 10px;
+}
+.m-left-md {
+  margin-left: 15px;
+}
+.m-left-lg {
+  margin-left: 20px;
+}
+
+.fade.show {
+  opacity:1;
+  background-color: rgba(#000, 0.3);
+}
+
+.modal.show .modal-dialog {
+  transform: translate(0);
+}
+
+app-datepicker .dropdown-menu {
+  display: block;
+}
+
+.input-group input.form-control {
+  width: 422px;
+}
+app-datepicker {
+  display: block;
+  .input-group {
+    width: 100%;
+  }
+  .dropdown-menu {
+    //width: 100%;
+  }
+  select[_ngcontent-c8] {
+    min-width: calc(50% - 36px);
+  }
+  .d-flex {
+    display: flex;
+  }
+  .ngb-dp-day[_ngcontent-c7], .ngb-dp-weekday[_ngcontent-c7], .ngb-dp-week-number[_ngcontent-c7] {
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    [_nghost-c5] {
+      width: 4rem;
+    }
+  }
+  ngb-datepicker-navigation-select {
+    width: 21rem !important;
+  }
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+  display: table-cell;
+  height: 38px;
+  width: 37px;
+}
+
+.badge {
+  &.none {
+    @extend .bg-danger;
+  }
+  &.prepared {
+    @extend .bg-warning;
+  }
+  &.checked {
+    @extend .bg-info;
+  }
+  &.in-bag {
+    @extend .bg-success;
+  }
+}
+
+.tooltip.show {
+  opacity: 1;
+}
