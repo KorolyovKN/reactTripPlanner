@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './style.scss';
 
+import Dashboard from './components/dashboard';
+
 export default class App extends Component {
   render() {
     return (
@@ -29,31 +31,7 @@ export default class App extends Component {
             </div>
         </div>
     </nav>
-    <section className="container dashboard">
-      <div className="dashboard-controls clearfix">
-        <div className="btn-group btn-group-xs pull-right">
-          <label className="btn btn-default" >Show all</label>
-          <label className="btn btn-default" >by Date</label>
-          <label className="btn btn-default" >by Status</label>
-        </div>
-      </div>
-      <ul className="portfolio">
-        <li className="thumbnail portfolio-thumbnail" >
-          <div className="dashboard_card-img"></div>
-          <div className="caption">
-            <h3>title</h3>
-            <p>Plan date</p>
-            <p><span className="label">period</span></p>
-            <p className="button-holder">
-              <a href="#"
-                className="btn btn-primary">Open</a>
-              <a href="#" className="btn btn-default">Hide</a>
-            </p>
-          </div>
-        </li>
-      </ul>
-    
-    </section>
+    <Dashboard />
     </div>
     );
   }
